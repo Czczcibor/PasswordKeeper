@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="AddPasswordBtn" Content="Add" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="75" Click="AddPasswordBtn_OnClick"/>
+        <TextBox x:Name="UsernameTxtBox" HorizontalAlignment="Left" Height="20" Margin="22,37,0,0" TextWrapping="Wrap" ToolTip="Username" VerticalAlignment="Top" Width="109"/>
+        <TextBox x:Name="DomainTxtBox" HorizontalAlignment="Left" Height="20" Margin="22,62,0,0" TextWrapping="Wrap" ToolTip="Domain" VerticalAlignment="Top" Width="109"/>
+        <TextBox x:Name="PasswordTxtBox" HorizontalAlignment="Left" Height="20" Margin="22,87,0,0" TextWrapping="Wrap" ToolTip="Password" VerticalAlignment="Top" Width="109"/>
+        <Button x:Name="GeneratePasswordBtn" Content="Add" HorizontalAlignment="Left" Margin="90,289,0,0" VerticalAlignment="Top" Width="75" Click="GeneratePasswordBtn_OnClick"/>
+        <Button x:Name="ViewPasswordsBtn" Content="Add" HorizontalAlignment="Left" Margin="170,289,0,0" VerticalAlignment="Top" Width="75" Click="ViewPasswordsBtn_OnClick"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="517">
+            <MenuItem Header="MenuItem" Height="32" Width="70"/>
+        </Menu>
+
+
     </Grid>
 </Window>
